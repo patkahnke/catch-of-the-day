@@ -21,11 +21,11 @@ class App extends React.Component {
     const order = { ...this.state.order };
     order[key] = order[key] + 1 || 1;
     this.setState({ order });
-  }
+  };
 
   loadSampleFishes = () => {
     this.setState({ fishes: sampleFishes});
-  }
+  };
 
   render() {
     return (
